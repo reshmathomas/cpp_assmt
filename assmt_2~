@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class Line
+{
+    private:
+		int px, py;
+		int l[10];
+    public:
+		Line()
+		{
+			px=5;
+			py=10;
+            for(int i=0;i<10;i++)
+			{
+				l[i]=0;
+			}
+		}
+		Line(int x, int y)
+		{
+			px=x;
+			py=y;
+		}
+		int &operator[](const int &i)
+		{
+			l
+};
